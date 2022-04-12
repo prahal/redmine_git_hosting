@@ -16,7 +16,7 @@ gem 'hiredis'
 gem 'redis'
 
 # Markdown rendering
-gem 'deckar01-task_list'
+gem 'deckar01-task_list', '~> 2.3.2'
 gem 'escape_utils'
 gem 'html-pipeline', '~> 2.13.2'
 gem 'rinku'
