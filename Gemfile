@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 # Gitolite Admin repository management
-gem 'gitolite-rugged', git: 'https://github.com/jbox-web/gitolite-rugged.git', tag: '1.4.0'
+#gem 'gitolite-rugged', git: 'https://github.com/jbox-web/gitolite-rugged.git', tag: '1.4.0'
+gem 'gitolite-rugged', '~>1.3.0'
 
 # Ruby/Rack Git Smart-HTTP Server Handler
 gem 'gitlab-grack', '~> 2.0.0', git: 'https://github.com/jbox-web/grack.git', require: 'grack', branch: 'fix_gemfile'
